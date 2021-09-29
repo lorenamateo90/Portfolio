@@ -10,13 +10,15 @@
     
     &__name{
      text-transform: uppercase;  
-     color:#b47e74;
+     color:black;
      font-size: 100px;
+     z-index: 1;
     }
     &__job{
         text-transform: uppercase;  
-        color:#b47e74;
+        color:black;
         font-size: 32px;
+        z-index: 1;
        }
 }
 
@@ -25,5 +27,4 @@
     width: 100%;
     object-fit: cover;  
     position:absolute;
-    z-index: -1;
 }
