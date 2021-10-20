@@ -1,0 +1,29 @@
+#aboutMe{
+    height: 700px;
+    background: rgb(220, 212, 220);
+    font-size: 30px;
+    border: black 3px solid;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.description{
+    text-align: justify;
+    width: 50%;
+    float:left;
+    font-size: 25px;
+    &__title{
+        padding: 20px 0 20px 0;
+        font-size: 30px;
+       
+    }
+}
+
+.photo{
+    margin: 110px;
+    width: 300px;
+    height: auto;
+    border: 12px solid rgb(244, 240, 240);
+}
