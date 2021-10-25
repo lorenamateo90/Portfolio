@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Skills.scss";
+// import keyboard from "../../images/keyboard.jpg";
 
 
 const Skills = () => {
@@ -12,7 +13,6 @@ const Skills = () => {
                      <li>HTML5</li>
                      <li>CSS3/SASS</li>
                      <li>Bootstrap/Reactstrap</li>
-                     <li>Material UI</li>
                  </ul>
              </div>
              <div className="development">
@@ -21,7 +21,15 @@ const Skills = () => {
                      <li>Javascript</li>
                      <li>React</li>
                      <li>Git</li>
-                     <li>Node</li>
+                     
+                 </ul>
+             </div>
+             <div className="learning">
+                 <h1 className="title">Aprendiendo</h1>
+                 <ul className="learning__list">
+                     <li>NodeJs</li>
+                     <li>Angular</li>
+                     <li>Material UI</li>
                  </ul>
              </div>
             </div> 

@@ -7,6 +7,8 @@
     display: flex;
     color: black;
     background: rgb(247, 243, 243);
+    background-image: url(../../images/paint2.jpg);
+    background-size: cover;
 }
 
 .skillsContainer{
@@ -18,8 +20,7 @@
 
 .layout{
     width: 300px;
-    background:pink;
-    margin-right: 25px;   
+    background:rgb(225, 216, 225);
     padding: 25px;
     border-radius: 55px;
     transition: ease 1s;
@@ -31,7 +32,7 @@
     }
 
     &:hover{
-        background: rgb(230, 129, 146); 
+        background: rgb(249, 194, 203);
         transform: translateY(-20px);
     }
 
@@ -40,10 +41,10 @@
 
 
 .development{
+    margin: 0 55px 0 55px;
     width: 300px;
-    margin-left: 25px;
     padding:25px;
-    background:pink;
+    background:rgb(225, 216, 225);
     transition: ease 1s;
     border-radius: 55px;
 
@@ -52,8 +53,27 @@
     }
 
     &:hover{
-        background: rgb(230, 129, 146);
-        transform: scale(1.2);
+        background: rgb(249, 194, 203);
+        transform: translateY(-20px);
+    }
+   
+}
+
+
+.learning{
+    width: 300px;
+    padding:25px;
+    background:rgb(225, 216, 225);
+    transition: ease 1s;
+    border-radius: 55px;
+
+    &__list{
+        list-style: none;
+    }
+
+    &:hover{
+        background: rgb(249, 194, 203);
+        transform: translateY(-20px);
     }
    
 }
