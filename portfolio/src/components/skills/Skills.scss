@@ -1,0 +1,68 @@
+#skills{
+    height: 800px;
+    font-size: 30px;
+    grid-row: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: black;
+    background: rgb(247, 243, 243);
+}
+
+.skillsContainer{
+    display:flex;
+    flex-direction: row;
+    line-height: 1.8;
+    text-align: center;
+}
+
+.layout{
+    width: 300px;
+    background:pink;
+    margin-right: 25px;   
+    padding: 25px;
+    border-radius: 55px;
+    transition: ease 1s;
+    
+    
+
+    &__list{
+        list-style: none;
+    }
+
+    &:hover{
+        background: rgb(230, 129, 146); 
+        transform: translateY(-20px);
+    }
+
+}
+   
+
+
+.development{
+    width: 300px;
+    margin-left: 25px;
+    padding:25px;
+    background:pink;
+    transition: ease 1s;
+    border-radius: 55px;
+
+    &__list{
+        list-style: none;
+    }
+
+    &:hover{
+        background: rgb(230, 129, 146);
+        transform: scale(1.2);
+    }
+   
+}
+
+.title{
+    text-decoration: underline;
+}
+
+
+
+
+
