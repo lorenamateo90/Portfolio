@@ -1,8 +1,7 @@
 #aboutMe{
-    height: 700px;
-    background: rgb(220, 212, 220);
+    height: 800px;
+    background: rgb(225, 216, 225);
     font-size: 30px;
-    border: black 3px solid;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -10,20 +9,44 @@
 }
 
 .description{
+    
     text-align: justify;
     width: 50%;
     float:left;
     font-size: 25px;
+
     &__title{
         padding: 20px 0 20px 0;
-        font-size: 30px;
-       
+        font-size: 30px;  
     }
+    
+    }
+
+.button{
+  margin-top: 30px;
+
+  &__cv{
+          background:pink;
+          text-decoration: none;
+          color: black;
+          border: 1px solid black;
+          padding: 6px;
+          border-radius: 20px;
+
+          &:hover{
+           background: rgb(230, 129, 146);
+          }
+  }
+
+  
 }
+
+
 
 .photo{
     margin: 110px;
-    width: 300px;
+    width: 250px;
     height: auto;
-    border: 12px solid rgb(244, 240, 240);
+    border-radius: 15px;
+  
 }
