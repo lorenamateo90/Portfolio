@@ -16,14 +16,17 @@
     font-size: 25px;
 
     &__title{
-        padding: 20px 0 20px 0;
+        padding: 20px 0 25px 0;
         font-size: 30px;  
     }
     
     }
 
 .button{
-  margin-top: 30px;
+    font-size: 20px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
 
   &__cv{
        
@@ -47,8 +50,9 @@
     margin: 110px;
     width: 250px;
     height: auto;
-    border-radius: 15px;
+    border-radius: 6px 60px / 50px 15px;   
   
+
 }
 
 
