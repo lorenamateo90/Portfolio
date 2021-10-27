@@ -6,27 +6,30 @@
     display: flex;
     justify-content: center;
     color: black;
+    
 }
 
 .description{
-    
     text-align: justify;
     width: 50%;
     float:left;
     font-size: 25px;
 
     &__title{
-        padding: 20px 0 20px 0;
+        padding: 20px 0 25px 0;
         font-size: 30px;  
     }
     
     }
 
 .button{
-  margin-top: 30px;
+    font-size: 20px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
 
   &__cv{
-          background:pink;
+       
           text-decoration: none;
           color: black;
           border: 1px solid black;
@@ -34,7 +37,7 @@
           border-radius: 20px;
 
           &:hover{
-           background: rgb(230, 129, 146);
+           background: rgb(247, 243, 243);
           }
   }
 
@@ -47,6 +50,9 @@
     margin: 110px;
     width: 250px;
     height: auto;
-    border-radius: 15px;
+    border-radius: 6px 60px / 50px 15px;   
   
+
 }
+
+
