@@ -4,6 +4,10 @@ import AboutMe from './components/aboutMe/AboutMe';
 import Cover from "./components/cover/Cover";
 import Navbar from './components/navbar/Navbar';
 import Skills from './components/skills/Skills';
+import Projects from './components/projects/Projects';
+
+
+
 
 function App() {
   const [scrollHeight, setScrollHeight] = useState (0);
@@ -23,6 +27,8 @@ function App() {
     <Cover/>
     <AboutMe/>
     <Skills/>
+    <Projects/>
+
     </div>
   );
 }
