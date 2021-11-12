@@ -1,7 +1,67 @@
-#projects{
-    height: 800px;
-   background: rgb(225, 216, 225);
-    font-size: 30px;
-     color: black;
-     }
 
+#projects{
+   height: 100%;
+   background: rgb(225, 216, 225);
+}
+
+.projects__title{
+display: flex;
+justify-content: center;
+font-size: 30px;
+
+}
+
+.projects__container{
+
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;   
+}
+
+.cards{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    width: 440px;
+    background:  rgb(225, 216, 225);
+    margin: 20px;
+    padding-bottom: 32px;
+    :hover{
+       transform:scale(1.1);
+}
+    
+}
+
+.cards__images{
+
+    margin-top: 40px;
+    border-radius: 40px;
+    width: 440px;
+    height: auto;
+
+}
+
+
+.github{
+    font-size: 25px;
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+
+  &__button{
+       
+          text-decoration: none;
+          color: black;
+        //   border: 1px solid black;
+          padding: 6px;
+          border-radius: 20px;
+          margin-bottom: 150px;
+
+          &:hover{
+           background: rgb(247, 243, 243);
+          }
+  }
+}
