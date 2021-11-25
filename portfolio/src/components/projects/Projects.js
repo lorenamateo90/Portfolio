@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-has-content */
 import React from "react";
 import { projects } from "../../data";
 import "./Projects.scss";
@@ -5,44 +6,18 @@ import "./Projects.scss";
 const Projects = () => {
   return (
     <section id="projects">
-
-      
-        
-        {/* <div className="project__container">
-          {projects.map((project) => (
-            <a
-              href={project.link}
-              key={project.image}
-              className="">
-              <div className="image">
-                <img
-                  alt="gallery"
-                  className="image"
-                  src={project.image}
-                />
-                <div className="description" >
-                  <p className="">{project.description}</p>
-                </div>
-              </div>
-            </a>
-          ))}
-        </div>
-       */}
           <div className="projects__container">
+
           {projects.map((project) => (
-          
-            <a className="cards"
-               href={project.link} 
-               target="_blank" 
-               rel="noreferrer"
-               >
-                  <img
-                  alt="imagenes de los proyectos"
-                  className="cards__images"
-                  src={project.image}
-                />
-            </a>  
-        
+            <div className="cards">
+              <img className="cards__images" src={project.image} alt="imagenes de los proyectos" />
+              <h3 className="cards__title">{project.title}</h3>
+              <div>
+                <a className="cards__links" href={project.link}  target="_blank" rel="noreferrer">Ver código</a>
+              </div>
+              <p className="cards__description">{project.description}</p>
+            </div>
+    
           ))}
         </div>
           <div className="github">
