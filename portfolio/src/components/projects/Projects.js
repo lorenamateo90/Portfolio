@@ -13,7 +13,7 @@ const Projects = () => {
               <img className="cards__images" src={project.image} alt="imagenes de los proyectos" />
               <h3 className="cards__title">{project.title}</h3>
               <div>
-                <a className="cards__links" href={project.link}  target="_blank" rel="noreferrer">Ver código</a>
+                <a className="cards__links" href={project.link}  target="_blank" rel="noreferrer">Ver proyecto</a>
               </div>
               <p className="cards__description">{project.description}</p>
             </div>

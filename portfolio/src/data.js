@@ -35,7 +35,7 @@ export const projects = [
       title: "Tarjetas de presentación",
       link: "https://github.com/lorenamateo90/AwesomeProfileCardsReact",
       description:
-      "Refactorización de código. Proyecto para crear tarjetas de presentación, pasado de JS a React.",
+      "Refactorización de código. Proyecto para crear tarjetas de presentación, migrado de JS a React.",
     },
     {
       image: Weather,
