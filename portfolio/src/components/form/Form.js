@@ -26,18 +26,18 @@ const Form = () => {
           
            onSubmit={sendEmail}
            >
-               <label></label>
-               <input type="text" name='name' placeholder="nombre" className='form__control'/>
+               <label className="form__label">Nombre</label>
+               <input type="text" name='name' placeholder="Nombre" className='form__text'/>
 
-               <label></label>
-               <input type="email" name='user_email' placeholder="email" className='form__control'/>
+               <label className="form__label">Email</label>
+               <input type="email" name='user_email' placeholder="Email" className='form__text'/>
 
-               <label></label>
-               <textarea name='message' placeholder="mensaje" className='form__control'/>
+               <label className="form__label">Mensaje</label>
+               <textarea name='message' placeholder="Escribe tu mensaje" className='form__message'/>
 
                <input 
                type="submit" 
-               value='send' 
+               value='Enviar' 
                className='formBtn'
              
                />

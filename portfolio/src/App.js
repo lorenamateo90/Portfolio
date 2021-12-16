@@ -5,6 +5,7 @@ import Cover from "./components/cover/Cover";
 import Navbar from './components/navbar/Navbar';
 import Skills from './components/skills/Skills';
 import Projects from './components/projects/Projects';
+import Contact from './components/contact/Contact';
 
 
 
@@ -28,6 +29,7 @@ function App() {
     <AboutMe/>
     <Skills/>
     <Projects/>
+    <Contact/>
 
     </div>
   );
