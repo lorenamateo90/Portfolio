@@ -2,7 +2,7 @@ import baila from "./images/Baila.png";
 import blackJack from "./images/Blackjack.jpg";
 import buscador from "./images/Buscador.jpg";
 import DiseñaTarjeta from "./images/DiseñaTarjeta.png";
-import Weather from "./images/Weather.png";
+import FormEmail from "./images/FormEmail.png";
 import RickMorty from "./images/RickMorty.png";
 
 
@@ -38,17 +38,17 @@ export const projects = [
       "Refactorización de código. Proyecto para crear tarjetas de presentación, migrado de JS a React.",
     },
     {
-      image: Weather,
-      title: "Visualización del tiempo",
-      link: "",
+      image: FormEmail,
+      title: "Formulario React",
+      link: "https://github.com/lorenamateo90/ReactForm",
       description:
-      "Web para visualizar la meterología desarrollada con HTML5, CSS3, React y GIT",
+      "Formulario hecho con react y boostrap sin necesidad de hacer el backend para recibir los datos (usando emailjs)"
     },
     {
       title: "Buscador de personajes de Rick&Morty",
       image: RickMorty,
       link: "https://github.com/lorenamateo90/RickandMorty",
       description:
-      "Buscador de peronajes de Rick&Morty donde podemos ver sus características. Desarrollada con HTML5,CSS3 y React",
+      "Buscador de personajes donde podemos ver sus características. Desarrollada con HTML5,CSS3 y React",
     },
   ];

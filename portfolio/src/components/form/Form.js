@@ -18,7 +18,7 @@ const Form = () => {
           }).catch(err => console.log(err));
     }
     return (
-        <section id="contact">
+        <section id="contact__section">
         <div className="container">
            <h1 className="formTitle">Contáctame</h1>
            <form 
