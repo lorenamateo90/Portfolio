@@ -18,9 +18,7 @@ const Form = () => {
           }).catch(err => console.log(err));
     }
     return (
-        <section id="contact__section">
-        <div className="container">
-           <h1 className="formTitle">Contáctame</h1>
+        <section className="cont">
            <form 
            className="form" 
           
@@ -33,7 +31,7 @@ const Form = () => {
                <input type="email" name='user_email' placeholder="Email" className='form__text'/>
 
                <label className="form__label">Mensaje</label>
-               <textarea name='message' placeholder="Escribe tu mensaje" className='form__message'/>
+               <textarea name='message' placeholder="Escribeme un mensaje" className='form__message'/>
 
                <input 
                type="submit" 
@@ -42,7 +40,6 @@ const Form = () => {
              
                />
            </form>
-        </div>
         </section>
     )
 }
