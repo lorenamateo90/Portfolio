@@ -24,7 +24,7 @@ const Networks = (props) => {
            target="_blank" 
            rel="noreferrer"
            
-           ><i className="fas fa-phone-alt"></i>626223754</a>
+           ><i className="fas fa-phone-alt"></i>+34 626223754</a>
           </div>
           </section>
     

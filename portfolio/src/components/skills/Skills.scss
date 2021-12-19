@@ -1,13 +1,14 @@
 #skills{
     height: 800px;
-    font-size: 30px;
+    font-size: 27px;
     grid-row: auto;
     align-items: center;
     justify-content: center;
     display: flex;
     color: black;
-    background: rgb(247, 243, 243);
-    background-size: cover;
+    background-image:  url(../../images/paint.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
 }
 
 .skillsContainer{
@@ -19,7 +20,8 @@
 
 .layout{
     width: 300px;
-    background:rgb(225, 216, 225);
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
     padding: 25px;
     border-radius: 55px;
     transition: ease 1s;
@@ -31,7 +33,7 @@
     }
 
     &:hover{
-        background: rgb(249, 194, 203);
+        // background: rgb(249, 194, 203);
         transform: translateY(-20px);
     }
 
@@ -43,7 +45,8 @@
     margin: 0 55px 0 55px;
     width: 300px;
     padding:25px;
-    background:rgb(225, 216, 225);
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
     transition: ease 1s;
     border-radius: 55px;
 
@@ -52,7 +55,6 @@
     }
 
     &:hover{
-        background: rgb(249, 194, 203);
         transform: translateY(-20px);
     }
    
@@ -62,7 +64,8 @@
 .learning{
     width: 300px;
     padding:25px;
-    background:rgb(225, 216, 225);
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
     transition: ease 1s;
     border-radius: 55px;
 
@@ -71,17 +74,36 @@
     }
 
     &:hover{
-        background: rgb(249, 194, 203);
+     
         transform: translateY(-20px);
     }
    
 }
 
-.title{
-    text-decoration: underline;
-}
+// .title{
+//     text-decoration: underline;
+// }
 
 
 
+// #skills{
+//     height: 800px;
+//     font-size: 28px;
+//     align-items: center;
+//     justify-content: center;
+//     display: flex;
+//     color: rgb(22, 21, 21);
+//     // background: rgb(247, 243, 243);
+//     text-align: center;
+//     line-height: 1.7;
+//     background-image:  url(../../images/paint.jpeg);
+//     background-size:cover;
+//     background-repeat: no-repeat;
+// }
 
-
+// .skills__container{
+//     padding: 12px;
+//     background-color: rgba(255, 255, 255, .15);  
+//     backdrop-filter: blur(5px);
+//     border-radius: 10px;
+// }
