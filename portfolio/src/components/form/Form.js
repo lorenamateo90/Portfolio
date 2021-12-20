@@ -37,8 +37,7 @@ const Form = () => {
                type="submit" 
                value='Enviar' 
                className='formBtn'
-             
-               />
+               />    
            </form>
         </section>
     )

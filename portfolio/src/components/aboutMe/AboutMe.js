@@ -1,3 +1,4 @@
+
 import React from 'react';
 import "./AboutMe.scss";
 import photo from "../../images/photo.jpg";

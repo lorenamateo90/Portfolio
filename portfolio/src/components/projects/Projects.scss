@@ -2,13 +2,13 @@
 #projects{
     height: 100%;
     background: rgb(240, 233, 240);
-}
 
-.projects__title{
-    display: flex;
-    justify-content: center;
-    font-size: 30px;
-    align-items: center;  
+    &__title{
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+        align-items: center;  
+    }
 }
 
 .projects__container{ 
@@ -19,7 +19,8 @@
     justify-content: center;
     align-items: center;  
         :hover{
-        transform:scale(1.02); 
+        transform:scale(1.02);  
+        }
 }
 
 .cards{
@@ -34,34 +35,27 @@
     margin: 35px;
     padding-bottom: 32px;
     background: rgb(247, 243, 243);
+    &__images{
+        width: 280px;
+        height: 170px;
+        padding-top:10px;
+    }
+    &__title{
+        margin: 3px 0 3px 0;
+        color:rgb(108, 99, 99);
+        text-align: center;
+       }
+    &__links{
+        text-decoration: none;
+        color:rgb(189, 171, 189);
+    }
+    &__description{
+        margin-top: 4px;
+        text-align: center;
+        }
 
 }
     
-}
-
-.cards__images{
-    width: 280px;
-    height: 170px;
-    padding-top:10px;
-}
-
-
-.cards__title{
- margin: 3px 0 3px 0;
- color:rgb(108, 99, 99);
- text-align: center;
-}
-
-.cards__links{
-    text-decoration: none;
-    color:rgb(189, 171, 189);
-}
-
-.cards__description{
-margin-top: 4px;
-text-align: center;
-}
-
 .github{
     font-size: 20px;
     margin-top: 35px;

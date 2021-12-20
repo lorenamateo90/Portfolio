@@ -1,26 +1,9 @@
+
 import React from 'react';
 import "./Skills.scss";
 
-
-
 const Skills = () => {
     return (
-        // <section id="skills">
-        //     <div className="skills__container">
-        //         <p className="skills__Container--paragraph">let programación &#61; &#123; <br/>
-        //         lenguajeMarcado: HTML5, <br />
-        //         maquetacion: CSS3, <br />
-        //         preprocesador: SASS, <br />
-        //         metodología: BEM, <br />
-        //         lenguaje: JavascriptES6, <br />
-        //         framework: ReactJS, <br />
-        //         editor: VisualEstudio, <br />
-        //         herramienta: GIT, <br />
-        //         marcoTrabajo: AGILE <br />
-        //         &#125; &#59;
-        //         </p>
-        //     </div>
-        // </section>
         <section id="skills">
             <div className="skillsContainer">
              <div className="layout">
@@ -36,8 +19,7 @@ const Skills = () => {
                  <ul className="development__list">
                      <li>Javascript</li>
                      <li>React</li>
-                     <li>Git</li>
-                     
+                     <li>Git</li>   
                  </ul>
              </div>
              <div className="learning">

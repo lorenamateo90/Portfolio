@@ -1,3 +1,4 @@
+
 import React from 'react';
 import "./Cover.scss";
 import coverVideo from "../../media/coverVideo.mp4"

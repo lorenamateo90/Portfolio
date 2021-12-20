@@ -1,3 +1,4 @@
+
 import baila from "./images/Baila.png";
 import blackJack from "./images/Blackjack.jpg";
 import buscador from "./images/Buscador.jpg";
@@ -5,10 +6,7 @@ import DiseñaTarjeta from "./images/DiseñaTarjeta.png";
 import FormEmail from "./images/FormEmail.png";
 import RickMorty from "./images/RickMorty.png";
 
-
-
 export const projects = [
-
     {
       image: blackJack,
       title: "Juego de cartas",

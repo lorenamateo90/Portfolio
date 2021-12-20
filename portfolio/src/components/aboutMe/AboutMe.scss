@@ -3,8 +3,8 @@
     height: 800px;
     background: rgb(240, 233, 240);
     font-size: 30px;
-    align-items: center;
     display: flex;
+    align-items: center; 
     justify-content: center;
     color: black;  
 }
@@ -20,7 +20,7 @@
         font-size: 30px;  
     }
     
-    }
+}
 
 .button{
     font-size: 20px;
@@ -28,21 +28,19 @@
     display: flex;
     justify-content: center;
 
-  &__cv{
+    &__cv{
        
-          text-decoration: none;
-          color: black;
-          border: 1px solid grey;
-          box-shadow: 0px 3px 10px 0px grey;
-          padding: 6px;
-          border-radius: 10px;
+        text-decoration: none;
+        color: black;
+        border: 1px solid grey;
+        box-shadow: 0px 3px 10px 0px grey;
+        padding: 6px;
+        border-radius: 10px;
 
           &:hover{
             background: rgb(247, 243, 243);
           }
-  }
-
-  
+  } 
 }
 
 .photo{
@@ -50,8 +48,6 @@
     width: 220px;
     height: auto;
     border-radius:150px;
-  
-
 }
 
 
