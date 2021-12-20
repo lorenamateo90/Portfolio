@@ -7,14 +7,12 @@ background-color: transparent;
 width: 100%;
 height: 90px;
 padding-left: 40px;
-font-size: 21px;
+font: 21px black bold;
 
   &__list{
     text-transform: uppercase;
     height: 80px;
     line-height: 80px;
-    color: black;
-    font-weight: bold;
     cursor: pointer;
     display: flex;
     justify-content: flex-start;

@@ -10,16 +10,13 @@
     
     &__name{
      text-transform: uppercase;  
-     color:black;
-     font-size: 140px;
+     font: 140px black;
      z-index: 1;
     }
     
     &__job{
         text-transform: uppercase;  
-        color:black;
-        font-size: 35px;
-        font-weight: bolder;
+        font: 35px black bold;
         z-index: 1;
        }
 }

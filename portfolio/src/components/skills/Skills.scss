@@ -1,3 +1,4 @@
+
 #skills{
     height: 800px;
     font-size: 27px;
@@ -26,21 +27,15 @@
     border-radius: 55px;
     transition: ease 1s;
     
-    
-
     &__list{
         list-style: none;
     }
 
     &:hover{
-        // background: rgb(249, 194, 203);
         transform: translateY(-20px);
     }
-
 }
    
-
-
 .development{
     margin: 0 55px 0 55px;
     width: 300px;
@@ -60,7 +55,6 @@
    
 }
 
-
 .learning{
     width: 300px;
     padding:25px;
@@ -79,31 +73,3 @@
     }
    
 }
-
-// .title{
-//     text-decoration: underline;
-// }
-
-
-
-// #skills{
-//     height: 800px;
-//     font-size: 28px;
-//     align-items: center;
-//     justify-content: center;
-//     display: flex;
-//     color: rgb(22, 21, 21);
-//     // background: rgb(247, 243, 243);
-//     text-align: center;
-//     line-height: 1.7;
-//     background-image:  url(../../images/paint.jpeg);
-//     background-size:cover;
-//     background-repeat: no-repeat;
-// }
-
-// .skills__container{
-//     padding: 12px;
-//     background-color: rgba(255, 255, 255, .15);  
-//     backdrop-filter: blur(5px);
-//     border-radius: 10px;
-// }

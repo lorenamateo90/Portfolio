@@ -1,12 +1,13 @@
 
+@import "../variables/variables.scss";
+
 #aboutMe{
     height: 800px;
-    background: rgb(240, 233, 240);
-    font-size: 30px;
+    background: $main-color;
+    font: 30px black;
     display: flex;
     align-items: center; 
     justify-content: center;
-    color: black;  
 }
 
 .description{
@@ -38,7 +39,7 @@
         border-radius: 10px;
 
           &:hover{
-            background: rgb(247, 243, 243);
+            background: $main-light-color;
           }
   } 
 }
@@ -47,7 +48,8 @@
     margin: 110px;
     width: 220px;
     height: auto;
-    border-radius:150px;
+    border-radius: 50%;
+    filter: drop-shadow(2px 4px 6px black);
 }
 
 

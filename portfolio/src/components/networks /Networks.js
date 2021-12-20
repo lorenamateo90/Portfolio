@@ -13,18 +13,19 @@ const Networks = (props) => {
             ><i className="fab fa-github"></i>GITHUB</a>
             </div>
             <div className="networks">
-             <a className="networks__link" href="https://github.com/lorenamateo90"
+             <a className="networks__link" href="http://www.linkedin.com/in/lorenamateogarcia"
              target="_blank" 
              rel="noreferrer"
         
              ><i className="fab fa-linkedin-in"></i>LINKEDIN</a>
              </div>
             <div className="networks">
-             <a className="networks__link" href="http://www.linkedin.com/in/lorenamateogarcia"
+              <a className="networks__link" href="http://www.linkedin.com/in/lorenamateogarcia"
             target="_blank" 
             rel="noreferrer"
            
-            ><i className="fas fa-phone-alt"></i>+34 626223754</a>
+            >
+            <i className="fas fa-phone-alt"></i>+34 626223754</a>
            </div>
           </section>
     )
