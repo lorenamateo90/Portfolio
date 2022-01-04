@@ -2,32 +2,73 @@
 @import "../variables/variables.scss";
 
 #aboutMe{
-    height: 800px;
+    flex-wrap: wrap;
+    height:auto;
     background: $main-color;
-    font: 30px black;
+    font: 15px black;
     display: flex;
     align-items: center; 
     justify-content: center;
+
+    @media all and (min-width: 1200px) {  
+        height: 800px;
+       
+    }
 }
 
 .description{
-    text-align: justify;
+    text-align: center;
     width: 50%;
     float:left;
-    font-size: 25px;
+    font-size: 15px;
+    margin-bottom: 10px;
+
+    @media all and (min-width: 768px) {
+        margin: 45px 0 30px 15px;
+        font: 20px black;
+        text-align: justify;
+    }
+
+    @media all and (min-width: 1200px) {
+        margin: 0;
+        font: 25px black;
+        text-align: justify;
+       
+    }
 
     &__title{
         padding: 20px 0 25px 0;
-        font-size: 30px;  
+        font-size: 20px bold;  
+        text-align: center;
+
+        @media all and (min-width: 768px) {
+        font: 25px bold;
+        text-align: center;
+        }
+    
+        @media all and (min-width: 1200px) {
+        font: 30px bold;
+        text-align: justify;
+        }
     }
     
 }
 
 .button{
-    font-size: 20px;
+    font-size: 13px;
     margin-top: 40px;
+    
     display: flex;
     justify-content: center;
+
+    @media all and (min-width: 768px) {
+        font: 17px black;
+    }
+
+    @media all and (min-width: 1200px) {
+        font: 20px black;
+    }
+
 
     &__cv{
        
@@ -38,6 +79,7 @@
         padding: 6px;
         border-radius: 10px;
 
+
           &:hover{
             background: $main-light-color;
           }
@@ -45,11 +87,21 @@
 }
 
 .photo{
-    margin: 110px;
-    width: 220px;
+    margin: 50px;
+    width: 160px;
     height: auto;
     border-radius: 50%;
     filter: drop-shadow(2px 4px 6px black);
+
+    @media all and (min-width: 768px) {
+        margin: 90px;
+        width: 190px;
+    }
+
+    @media all and (min-width: 1200px) {
+        margin: 110px;
+        width: 220px;
+    }
 }
 
 

@@ -1,25 +1,94 @@
 
+@import "../variables/variables.scss";
+
 .navbar{
 position: fixed;
 top: 0;
 z-index: 1;
 background-color: transparent;
-width: 100%;
+width: 100vw;
 height: 90px;
-padding-left: 40px;
-font: 21px black bold;
+// padding-left: 40px;
+
+// @media all and (min-width: 768px) {
+//   width: 100vw;
+//  }
+
+// @media all and (min-width: 1200px) {
+//   display:none;
+//  }
+
+  &__open{
+    float:right;
+    margin:40px;
+    background: none;
+    border:none;
+    cursor: pointer;
+    display: block;
+    color:black;
+
+    // @media all and (min-width: 768px) {
+    //   display:block;
+    //  }
+
+    @media all and (min-width: 1200px) {
+      display:none;
+     }
+  }
+
+    &__close{
+      float:right;
+      margin:40px;
+      background: none;
+      border:none;
+      cursor: pointer;
+      display: block;
+      align-self: flex-end;
+
+
+    @media all and (min-width: 1200px) {
+      // flex-direction: row;
+      // font: 21px black bold;
+      // top:0;
+      display:none;
+     }
+  }
 
   &__list{
     text-transform: uppercase;
-    height: 80px;
     line-height: 80px;
     cursor: pointer;
     display: flex;
-    justify-content: flex-start;
     list-style: none;
+    flex-direction: column;
+    position:fixed;
+    left: 0;
+    width: 100vw;
+    align-items: center;
+    background:cornsilk;
+    overflow-y: auto;
+    opacity: 0;
+    //poner esto en movil no en ordenador (en ordena all) pointer-events: none;
+   
+    @media all and (min-width: 768px) {
+      font: 17px black;
+      position:fixed;
+      width: 100%;
+      line-height: 80px;
+     }
+
+    @media all and (min-width: 1200px) {
+      flex-direction: row;
+      font: 21px black bold;
+      top:0;
+      background-color: transparent;
+      opacity: 1;
+    
+     }
     
      &--item{
         margin: 40px 20px 20px 10px;
+        width: max-content;
      }
   }
 }

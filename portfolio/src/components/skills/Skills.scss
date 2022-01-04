@@ -1,7 +1,7 @@
 
 #skills{
-    height: 800px;
-    font-size: 27px;
+    height: auto;
+    font-size: 17px;
     grid-row: auto;
     align-items: center;
     justify-content: center;
@@ -10,22 +10,46 @@
     background-image:  url(../../images/paint.jpeg);
     background-size:cover;
     background-repeat: no-repeat;
+
+    @media all and (min-width: 768px) {
+    font-size: 21px;
+    }
+
+    @media all and (min-width: 1200px) {
+    height: 800px;
+    font-size: 27px;
+    }
+
 }
 
 .skillsContainer{
-    display:flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     line-height: 1.8;
     text-align: center;
+    margin: 30px 0 30px 0;
+
+    @media all and (min-width: 1200px) {
+    display:flex;
+    }
+
 }
 
 .layout{
-    width: 300px;
     background-color: rgba(255, 255, 255, .15);  
     backdrop-filter: blur(5px);
     padding: 25px;
     border-radius: 55px;
     transition: ease 1s;
+
+
+    @media all and (min-width: 768px) {
+    margin-top:15px;
+    }
+
+    @media all and (min-width: 1200px) {
+    margin: 0 55px 0 0;
+    width: 300px;
+    }
     
     &__list{
         list-style: none;
@@ -37,7 +61,7 @@
 }
    
 .development{
-    margin: 0 55px 0 55px;
+    margin-top:30px;
     width: 300px;
     padding:25px;
     background-color: rgba(255, 255, 255, .15);  
@@ -45,31 +69,48 @@
     transition: ease 1s;
     border-radius: 55px;
 
+    @media all and (min-width: 768px) {
+    margin-top:15px;
+    }
+    
+    @media all and (min-width: 1200px) {
+    margin-top:0;
+    }
+
     &__list{
-        list-style: none;
+    list-style: none;
     }
 
     &:hover{
-        transform: translateY(-20px);
+    transform: translateY(-20px);
     }
    
 }
 
 .learning{
-    width: 300px;
+    margin-top: 30px;
     padding:25px;
     background-color: rgba(255, 255, 255, .15);  
     backdrop-filter: blur(5px);
     transition: ease 1s;
     border-radius: 55px;
+ 
+    @media all and (min-width: 768px) {
+    margin-top:15px;
+    }
+    
+    @media all and (min-width: 1200px) {
+    margin: 0 0 0 55px;
+    width: 300px;
+    }
+    
 
     &__list{
-        list-style: none;
+    list-style: none;
     }
 
     &:hover{
-     
-        transform: translateY(-20px);
+    transform: translateY(-20px);
     }
    
 }

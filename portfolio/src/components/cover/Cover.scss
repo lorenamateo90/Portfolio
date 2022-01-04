@@ -1,4 +1,6 @@
 
+// @import "../mixins/mixins.scss";
+
 .cover {
     height: 100vh;
     width: 100%;
@@ -6,19 +8,39 @@
     display:flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center;  
     
     &__name{
      text-transform: uppercase;  
-     font: 140px black;
+     font: 40px black;
+     z-index: 1;
+
+     @media all and (min-width: 768px) {
+	 font: 98px black;
+	}
+
+    @media all and (min-width: 1200px) {
+     font: 130px black;
      z-index: 1;
     }
     
+    }
+
+    
     &__job{
-        text-transform: uppercase;  
-        font: 35px black bold;
-        z-index: 1;
-       }
+     text-transform: uppercase;  
+     font: 16px black bold;
+     z-index: 1;
+
+    @media all and (min-width: 768px) {
+     font: 35px black;
+    }
+       
+    @media all and (min-width: 1200px) {
+     font: 45px black;
+     z-index: 1;
+    }
+    }
 }
 
 .video{
@@ -27,3 +49,5 @@
     object-fit: cover;  
     position:absolute;
 }
+
+

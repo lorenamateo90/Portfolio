@@ -2,11 +2,20 @@
 @import "../variables/variables.scss";
 
 .network{
-    margin-left:40px;
+    margin-top: 50px;
     float:right;
     display: flex;
     flex-direction: column;
     width: fit-content;
+
+    @media all and (min-width: 768px) {
+     margin: 0 0 0 10px;
+  
+    }
+
+    @media all and (min-width: 1200px) {
+        margin: 0 40px 0 0;
+    }
 }
 
 .networks{
