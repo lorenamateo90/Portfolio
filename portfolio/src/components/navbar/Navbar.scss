@@ -8,87 +8,55 @@ z-index: 1;
 background-color: transparent;
 width: 100vw;
 height: 90px;
-// padding-left: 40px;
-
-// @media all and (min-width: 768px) {
-//   width: 100vw;
-//  }
-
-// @media all and (min-width: 1200px) {
-//   display:none;
-//  }
-
-  &__open{
-    float:right;
-    margin:40px;
-    background: none;
-    border:none;
-    cursor: pointer;
-    display: block;
-    color:black;
-
-    // @media all and (min-width: 768px) {
-    //   display:block;
-    //  }
-
-    @media all and (min-width: 1200px) {
-      display:none;
-     }
-  }
-
-    &__close{
-      float:right;
-      margin:40px;
-      background: none;
-      border:none;
-      cursor: pointer;
-      display: block;
-      align-self: flex-end;
-
-
-    @media all and (min-width: 1200px) {
-      // flex-direction: row;
-      // font: 21px black bold;
-      // top:0;
-      display:none;
-     }
-  }
+z-index: 2;
 
   &__list{
+
     text-transform: uppercase;
-    line-height: 80px;
+    line-height: 60px;
     cursor: pointer;
     display: flex;
     list-style: none;
     flex-direction: column;
-    position:fixed;
-    left: 0;
+    position:absolute;
     width: 100vw;
     align-items: center;
-    background:cornsilk;
-    overflow-y: auto;
-    opacity: 0;
-    //poner esto en movil no en ordenador (en ordena all) pointer-events: none;
-   
+    background:linear-gradient(50deg, rgb(236, 81, 133), #a7535f);
+    // overflow-y: auto;
+    
     @media all and (min-width: 768px) {
-      font: 17px black;
+      font: 20px black;
       position:fixed;
       width: 100%;
       line-height: 80px;
+      
      }
 
     @media all and (min-width: 1200px) {
+      background: none;
+      margin-left: 20px;
       flex-direction: row;
       font: 21px black bold;
       top:0;
-      background-color: transparent;
       opacity: 1;
     
      }
+
+     &--item:nth-child(1){ 
+      margin-top: 30px;
+      
+
+      @media all and (min-width: 1200px) {
+        border: none;
+        margin: 40px 20px 20px 10px;
+      }
+  }
     
      &--item{
-        margin: 40px 20px 20px 10px;
-        width: max-content;
+        @media all and (min-width: 1200px) {
+          border: none;
+          margin: 40px 20px 20px 10px;
+        }
      }
   }
 }
@@ -101,4 +69,22 @@ height: 90px;
 .links{
   text-decoration: none;
   color:black;
+}
+
+
+.btn{
+  position: absolute;
+  margin: 7px 0 0 7px;
+  padding: 4px;
+  border:none;
+  background: none;
+
+  .fab{
+    font-size:30px;
+  }
+ 
+
+@media all and (min-width: 1200px) {
+  display: none;
+}
 }
