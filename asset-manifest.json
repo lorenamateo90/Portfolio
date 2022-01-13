@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/lorenamateo90/static/css/main.e373be18.css",
+    "main.js": "/lorenamateo90/static/js/main.5aa6c634.js",
+    "static/media/Baila.png": "/lorenamateo90/static/media/Baila.9ecb976c6dc4231516c8.png",
+    "static/media/coverVideo.mp4": "/lorenamateo90/static/media/coverVideo.1db769a912d0e12076ba.mp4",
+    "static/media/FormEmail.png": "/lorenamateo90/static/media/FormEmail.6421c53c6b4b20d9a630.png",
+    "static/media/DiseñaTarjeta.png": "/lorenamateo90/static/media/DiseñaTarjeta.76d24dda2b22839b608b.png",
+    "static/media/cv.pdf": "/lorenamateo90/static/media/cv.814ec5e167a5a94d7c02.pdf",
+    "static/media/photo.jpg": "/lorenamateo90/static/media/photo.9f3aa7e95d050d512db2.jpg",
+    "static/media/paint.jpeg": "/lorenamateo90/static/media/paint.c4537dadd0032e48ada5.jpeg",
+    "index.html": "/lorenamateo90/index.html",
+    "main.e373be18.css.map": "/lorenamateo90/static/css/main.e373be18.css.map",
+    "main.5aa6c634.js.map": "/lorenamateo90/static/js/main.5aa6c634.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e373be18.css",
+    "static/js/main.5aa6c634.js"
+  ]
+}
