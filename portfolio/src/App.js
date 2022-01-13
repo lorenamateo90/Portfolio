@@ -8,6 +8,7 @@ import Skills from './components/skills/Skills';
 import Projects from './components/projects/Projects';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   const [scrollHeight, setScrollHeight] = useState (0);
@@ -23,6 +24,7 @@ function App() {
 
   return (
     <div className="App">
+    <BrowserRouter>
     <Navbar isScrolling={scrollHeight}/>
     <Cover/>
     <AboutMe/>
@@ -30,7 +32,7 @@ function App() {
     <Projects/>
     <Contact/>
     <Footer/>
-
+    </BrowserRouter>
     </div>
   );
 }

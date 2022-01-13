@@ -3,6 +3,7 @@ import React from 'react';
 import "./Navbar.scss";
 import { useState, useEffect } from 'react';
 
+
 const Navbar = ({isScrolling}) => {
   
     const [toggleMenu, setToggleMenu] = useState(false)
@@ -29,18 +30,20 @@ const Navbar = ({isScrolling}) => {
 
     return (
         <nav className={`navbar ${isScrolling >20 ? "scrolling" : null}`}>
-             
+           
             <div>
             {(toggleMenu || screenWidth > 1200) && (
+               
                 <ul className="navbar__list">
-                    <li className="navbar__list--item" onClick={toggleNav}><a className="links" href="#aboutMe">Sobre mi</a></li>
-                    <li className="navbar__list--item" onClick={toggleNav}><a className="links" href="#skills">Habilidades</a></li>
-                    <li className="navbar__list--item" onClick={toggleNav}><a className="links" href="#projects">Proyectos</a></li>
-                    <li className="navbar__list--item" onClick={toggleNav}><a className="links" href="#contact">Contacto</a></li>
+                    <li className="navbar__list--item" onClick={toggleNav}> <a href="#aboutMe" className="links">Sobre mi</a> </li>
+                    <li className="navbar__list--item" onClick={toggleNav}> <a href="#skills" className="links">Habilidades</a> </li>
+                    <li className="navbar__list--item" onClick={toggleNav}> <a href="#projects" className="links">Proyectos </a> </li>
+                    <li className="navbar__list--item" onClick={toggleNav}> <a href="#contact" className="links" >Contacto </a> </li>
                 </ul>
           
              )}
                </div>
+               
                 <button onClick={toggleNav} className="btn">
                 <i class="fas fa-bars"></i></button> 
         </nav>
