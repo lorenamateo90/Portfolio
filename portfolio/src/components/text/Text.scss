@@ -3,14 +3,14 @@
 
 .text{
   display: inline-block;
-  font-weight: bold;
+  font: 20px bold;
  
   @media all and (min-width: 768px) {
     font: 25px bold;
 }
 
 @media all and (min-width: 1200px) {
-    font: 30px bolder;
+    font: 30px bold;
   
 }
 }

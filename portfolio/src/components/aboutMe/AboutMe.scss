@@ -5,7 +5,6 @@
     flex-wrap: wrap;
     height:auto;
     background: $main-color;
-    font: 15px black;
     display: flex;
     align-items: center; 
     justify-content: center;
@@ -47,7 +46,7 @@
         }
     
         @media all and (min-width: 1200px) {
-        font: 30px bold;
+        font: 30px bold ;
         text-align: justify;
         }
     }

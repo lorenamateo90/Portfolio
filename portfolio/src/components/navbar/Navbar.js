@@ -30,7 +30,6 @@ const Navbar = ({isScrolling}) => {
 
     return (
         <nav className={`navbar ${isScrolling >20 ? "scrolling" : null}`}>
-           
             <div>
             {(toggleMenu || screenWidth > 1200) && (
                
@@ -43,7 +42,6 @@ const Navbar = ({isScrolling}) => {
           
              )}
                </div>
-               
                 <button onClick={toggleNav} className="btn">
                 <i class="fas fa-bars"></i></button> 
         </nav>
