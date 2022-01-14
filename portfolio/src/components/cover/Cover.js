@@ -7,7 +7,7 @@ const Cover = () => {
         <div className="cover">
             <video className="video" src={coverVideo} autoPlay muted />
             <h1 className="cover__name">Lorena Mateo</h1>
-            <p className="cover__job">Desarrolladora Junior</p>
+            <p className="cover__job">Desarrolladora frontend</p>
         </div>
     )
 }
