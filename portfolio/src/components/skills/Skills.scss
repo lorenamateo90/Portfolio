@@ -1,6 +1,6 @@
 
 #skills{
-    height: auto;
+    height: 100vh;
     font-size: 17px;
     grid-row: auto;
     align-items: center;
@@ -16,7 +16,6 @@
     }
 
     @media all and (min-width: 1200px) {
-    height: 800px;
     font-size: 27px;
     }
 
