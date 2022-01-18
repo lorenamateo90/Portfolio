@@ -13,7 +13,6 @@ z-index: 2;
   &__list{
     text-transform: uppercase;
     line-height: 60px;
-    cursor: pointer;
     display: flex;
     list-style: none;
     flex-direction: column;
@@ -21,7 +20,7 @@ z-index: 2;
     width: 100vw;
     align-items: center;
     background:linear-gradient(50deg, rgba(236, 81, 133, 1), #9d2b3b);
-    overflow-y: auto;
+    // overflow-y: auto;
     border:none;
     
     @media all and (min-width: 768px) {
@@ -51,6 +50,7 @@ z-index: 2;
   }
     
      &--item{
+      cursor: pointer;
       position: relative;
       color: #000;
       text-decoration: none;

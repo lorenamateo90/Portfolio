@@ -4,6 +4,7 @@
 #projects{
     height: 100%;
     background: $main-color;
+   
 
     &__title{
         display: flex;
@@ -20,9 +21,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;  
-        :hover{
-        transform:scale(1.02);  
-        }
+    padding: 45px;
 }
 
 .cards{
@@ -34,9 +33,11 @@
     align-items: center;
     text-decoration: none;
     width: 305px;
+    height: 315px;
     margin: 35px;
     padding-bottom: 32px;
     background: $main-light-color;
+    
     &__images{
         width: 280px;
         height: 170px;

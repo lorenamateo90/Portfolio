@@ -43,7 +43,7 @@ const Navbar = ({isScrolling}) => {
              )}
                </div>
                 <button onClick={toggleNav} className="btn">
-                <i class="fas fa-bars"></i></button> 
+                <i className="fas fa-bars"></i></button> 
         </nav>
     )
 }
