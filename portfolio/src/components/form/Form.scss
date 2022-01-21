@@ -16,7 +16,7 @@
     font-size: 18px;
     float:left;
     width:350px;
-	padding:25px;
+	padding:35px;
 	border-radius:10px;
 	margin:auto;
     border: 2px solid $border-box-shadow;
@@ -24,11 +24,11 @@
 
     &__text {
         width:180px;
-        padding:3px 10px;
+        padding:4px 10px;
         border:1px solid $border-box-shadow;
         border-radius:3px;
         background-color:$border-box-shadow;
-        margin:8px 0;
+        margin: 18px 0;
         display:block;
     }
       
@@ -38,9 +38,10 @@
 	    border:1px solid $border-box-shadow;
 	    border-radius:3px;
 	    background-color: $border-box-shadow;			
-	    margin:8px 0;
+	    margin-top: 18px;
 	    resize:none;
         display:block;
+        padding: 10px;
 }
 }
 

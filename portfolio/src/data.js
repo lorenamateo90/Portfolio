@@ -43,7 +43,7 @@ export const projects = [
       "Formulario hecho con react y boostrap sin necesidad de hacer el backend para recibir los datos (usando emailjs)"
     },
     {
-      title: "Buscador de personajes de Rick&Morty",
+      title: "Buscador de Rick&Morty",
       image: RickMorty,
       link: "https://github.com/lorenamateo90/RickandMorty",
       description:
